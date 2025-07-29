@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class DocxGenerator implements DocumentGenerator {
     @Override
     public void generateFile(String fileName) {
-        System.out.println("The docx file" + fileName + ".docx has been generated");
+        System.out.println("The docx file " + fileName + ".docx has been generated");
     }
 }
